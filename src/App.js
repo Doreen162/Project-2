@@ -1,40 +1,24 @@
-import React, { Fragment, useEffect } from 'react';
-import SearchBar from './components/layout/SearchBar';
-import Logs from './components/layout/Logs';
-import AddBtn from './components/logs/AddBtn';
-import AddLogModal from './components/logs/AddLogModal';
-import EditLogModal from './components/layout/EditLogModal';
-import AddTechModal from './components/techs/AddTechModal';
-import TechListModal from './components/techs/TechListModal';
-import { Provider } from 'react-redux';
-import store from './store';
-
-import 'materialize-css/dist/css/materialize.min.css';
-import M from 'materialize-css/dist/js/materialize.min.js';
-import './App.css';
-
-
-
-const App = () => {
-   useEffect(() => {
-    // Init Materialize JS
-    M.AutoInit();
-  });
-  return (
-    <Provider store={store}>
-    <Fragment>
-        <SearchBar />
-        <div className='container'>
-          <AddBtn />
-          <AddLogModal />
-          <EditLogModal />
-          <AddTechModal />
-          <TechListModal />
-          <Logs />
-        </div>
-      </Fragment>
-      </Provider>
-  );
-};
-
+import React, { Component } from 'react';
+import Header from './components/header/header';
+import navbar from './components/navbar/Navbar';
+import Resume from './components/resume/resume';
+import Portfolio from './components/portfolio/portfolio';
+import Testimonials from './components/testimonials/testimonials';
+import ContactUs from './components/contactus/contactus';
+import Footer from './components/footer/footer';
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <Header />
+        <navbar />
+        <Resume />
+        <Portfolio />
+        <Testimonials />
+        <ContactUs />
+        <Footer />
+      </div>
+    );
+  }
+}
 export default App;
