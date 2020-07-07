@@ -1,24 +1,40 @@
-import React, { Component } from 'react';
-import Header from './components/header/header';
-import navbar from './components/navbar/Navbar';
-import Resume from './components/resume/resume';
-import Portfolio from './components/portfolio/portfolio';
-import Testimonials from './components/testimonials/testimonials';
-import ContactUs from './components/contactus/contactus';
-import Footer from './components/footer/footer';
-class App extends Component {
-  render() {
-    return (
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './contents/Home';
+import About from './contents/About';
+import Education from './contents/Education';
+import Skills from './contents/Skills';
+import Contact from './contents/Contact';
+import Testimonial from './components/Testimonial';
+
+function App() {
+  return (
+    <Router>
       <div className='App'>
-        <Header />
-        <navbar />
-        <Resume />
-        <Portfolio />
-        <Testimonials />
-        <ContactUs />
-        <Footer />
+        <Navbar />
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/education'>
+          <Education />
+        </Route>
+        <Route path='/skills'>
+          <Skills />
+        </Route>
+        <Route path='/contact'>
+          <Contact />
+        </Route>
+        <Route path='/Testimonial'>
+          <Testimonial />
+        </Route>
       </div>
-    );
-  }
+    </Router>
+  );
 }
+
 export default App;
