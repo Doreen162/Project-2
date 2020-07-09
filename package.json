@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "http://Doreen162.github.io/porfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -23,7 +24,9 @@
     "dev": "concurrently \"npm start\"\"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +45,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
+    "gh-pages": "^3.1.0",
     "json-server": "^0.16.1"
   },
   "proxy": "http://localhost:5000"
