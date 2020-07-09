@@ -7,7 +7,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
-import Testimonial from './components/Testimonial';
+import Testimonial from './contents/Testimonial';
 
 function App() {
   return (
