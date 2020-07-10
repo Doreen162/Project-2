@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://Doreen162.github.io/porfolio",
+  "homepage": "http://doreen162.github.io/porfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "json-server": "json-server --watch db.json --port 5000",
-    "dev": "concurrently \"npm start\"\"npm run json-server\"",
+    "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
