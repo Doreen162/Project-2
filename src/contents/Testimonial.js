@@ -4,7 +4,7 @@ class Testimonial extends Component {
   render() {
     return (
       <div className='condiv'>
-        <h1 className='subtopic'>Testimonial</h1>
+        {/* <h1 className='subtopic'>Testimonial</h1>
         <Widecard
           title='Thapelo Group Lecture'
           About='Doreen Ligman is a Life Choices Academy students for 2020. One thing you should know
@@ -22,7 +22,7 @@ class Testimonial extends Component {
         <Widecard
           title='Lucinne Julie'
           about='Doreen is a very dedicated individual she has pay great attention to details during this programme.'
-        />
+        /> */}
       </div>
     );
   }
