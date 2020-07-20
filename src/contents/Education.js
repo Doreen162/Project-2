@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Widecard from '../components/Widecard';
+import Footer from '../components/Footer';
 
 class Education extends Component {
   render() {
@@ -19,6 +20,13 @@ class Education extends Component {
           to='January 2020'
         />
         <Widecard
+          title='Believe Program and Udemy Online Courses'
+          where='Naspers Labs (Delft Mall)'
+          from='August 2019'
+          to='October 2019'
+        />
+
+        <Widecard
           title='HomeBase Care Level 1,2 & 3'
           where='South Africa Red Cross Society'
           from='20 June 2017'
@@ -30,6 +38,12 @@ class Education extends Component {
           from='2009'
           to='2012'
         />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Footer />
       </div>
     );
   }

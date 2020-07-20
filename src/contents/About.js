@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../components/Footer';
 
 class About extends Component {
   render() {
@@ -12,10 +13,26 @@ class About extends Component {
         </h3>
         <br></br>
         <p>
-          My love for computers started at Naspers Labs. Web development is my
-          center of interest, i always love the idea of build a app from
-          scratch. My work are display on Codepen and Github.
+          My love for Computers started at Naspers Labs. Web Development is my
+          center of interest, I always love the idea of building an app from
+          scratch. Most of my work are displayed on Codepen and Github. Please
+          see the home page.
         </p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Footer />
       </div>
     );
   }

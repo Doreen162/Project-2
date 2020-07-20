@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/profile-pic.jpg';
 import Social from '../components/Social';
+import Footer from '../components/Footer';
 
 class Home extends Component {
   render() {
@@ -15,6 +16,8 @@ class Home extends Component {
           eraseDelay={700}
         />
         <Social />
+        <br></br>
+        <Footer />
       </div>
     );
   }

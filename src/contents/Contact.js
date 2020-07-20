@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Social from '../components/Social';
+import Footer from '../components/Footer';
+
 class Contact extends Component {
   render() {
     return (
@@ -7,6 +9,24 @@ class Contact extends Component {
         <h1 className='subtopic'>Contact Me</h1>
         <h3>Email : doreenligman17@gmail.com</h3>
         <h3>contact : +27 78 841 4676 </h3>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <Footer />
         <Social />
       </div>
     );

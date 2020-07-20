@@ -5,8 +5,9 @@ import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
-import Skills from './contents/Skills';
+import Work from './contents/Work';
 import Contact from './contents/Contact';
+import Skills from './contents/Skills';
 import Testimonial from './contents/Testimonial';
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path='/education'>
           <Education />
+        </Route>
+        <Route path='/Work'>
+          <Work />
         </Route>
         <Route path='/skills'>
           <Skills />
