@@ -7,8 +7,15 @@ class Contact extends Component {
     return (
       <div className='condiv'>
         <h1 className='subtopic'>Contact Me</h1>
-        <h3>Email : doreenligman17@gmail.com</h3>
-        <h3>contact : +27 78 841 4676 </h3>
+        <h2>Email : doreenligman17@gmail.com</h2>
+        <h2>contact : +27 78 841 4676 </h2>
+
+        <a
+          href='https://docs.google.com/document/d/14j51-qgcxPSGa8BTZL7nEU1dFEkEg6Zexqg1lkRiLjw/edit'
+          target='_blank'
+        >
+          Download my CV
+        </a>
 
         <br></br>
         <br></br>

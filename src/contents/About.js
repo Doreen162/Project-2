@@ -9,14 +9,23 @@ class About extends Component {
         <h4>Hey there,</h4>
         <h1>I'm Doreen Rowena Ligman</h1>
         <h3>
-          Web <u>Developer</u>
+          <u> Web Developer</u>
         </h3>
         <br></br>
         <p>
-          My love for Computers started at Naspers Labs. Web Development is my
-          center of interest, I always love the idea of building an app from
-          scratch. Most of my work are displayed on Codepen and Github. Please
-          see the home page.
+          I'm South African female citizen. I'm currently 26 years old and the
+          languages I speak is English and Afrikaans. My Abilities are good
+          communication skills, working well in a team, self-movitation, good
+          time management, critical thinking, determination and persistance. My
+          interest are watching news because I love knowing what going on around
+          the world, watching movies and doing outdoor/adventures.
+        </p>
+        <br></br>
+
+        <p>
+          My love for computers started at Naspers Labs. Web development is my
+          centre of interest, I always love the idea of building an application
+          from scratch. Most of my work is available on Codepen and Github.
         </p>
         <br></br>
         <br></br>
