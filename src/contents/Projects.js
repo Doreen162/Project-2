@@ -3,6 +3,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import images from '../img/images.png';
 import contact from '../img/contact.png';
 import login from '../img/login.png';
+import beauty from '../img/beauty.png';
 import Footer from '../components/Footer';
 
 const Projects = () => {
@@ -50,6 +51,15 @@ const Projects = () => {
       <br></br>
       <br></br>
       <br></br>
+
+      <ReactTypingEffect
+        className='typingeffect'
+        text={['Salon spa']}
+        speed={100}
+        eraseDelay={700}
+      />
+      <br></br>
+      <img src={beauty} className='beauty'></img>
 
       <br></br>
       <br></br>
