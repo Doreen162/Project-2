@@ -9,7 +9,7 @@ class About extends Component {
         <h4>Hey there,</h4>
         <h1>I'm Doreen Rowena Ligman</h1>
         <h3>
-          <u> Full Stack Web Developer</u>
+          <u> Junior Web Developer</u>
         </h3>
         <br></br>
         <p>
