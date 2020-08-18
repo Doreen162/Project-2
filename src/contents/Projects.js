@@ -4,6 +4,7 @@ import images from '../img/images.png';
 import contact from '../img/contact.png';
 import login from '../img/login.png';
 import beauty from '../img/beauty.png';
+import Lottery from '../img/Lottery.png';
 import Footer from '../components/Footer';
 
 const Projects = () => {
@@ -60,6 +61,20 @@ const Projects = () => {
       />
       <br></br>
       <img src={beauty} className='beauty'></img>
+
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <ReactTypingEffect
+        className='typingeffect'
+        text={['Lottery project in Python']}
+        speed={100}
+        eraseDelay={700}
+      />
+      <br></br>
+      <img src={Lottery} className='Lottery'></img>
 
       <br></br>
       <br></br>
