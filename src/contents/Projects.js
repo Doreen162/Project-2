@@ -20,8 +20,9 @@ const Projects = () => {
       <br></br>
       <img src={images} className='images'></img>
       <br></br>
-      <a href='"http://Doreen162.github.io/github-finder-project'>
-        <b>Send me email by clicking on this link</b>
+      <a href='http://Doreen162.github.io/github-finder-project'>
+        <br></br>
+        <b>Click on this link</b>
       </a>
 
       <br></br>
@@ -37,6 +38,10 @@ const Projects = () => {
       />
       <br></br>
       <img src={contact} className='contact'></img>
+      <a href='http://Doreen162.github.io/contact-keeper-project'>
+        <br></br>
+        <b>Click on this link</b>
+      </a>
 
       <br></br>
       <br></br>
@@ -51,6 +56,10 @@ const Projects = () => {
       />
       <br></br>
       <img src={login} className='login'></img>
+      <a href='http://Doreen162.github.io/it-logger-project'>
+        <br></br>
+        <b>Click on this link</b>
+      </a>
 
       <br></br>
       <br></br>
@@ -65,6 +74,10 @@ const Projects = () => {
       />
       <br></br>
       <img src={beauty} className='beauty'></img>
+      <a href='http://Doreen162.github.io/website'>
+        <br></br>
+        <b>Click on this link</b>
+      </a>
 
       <br></br>
       <br></br>
@@ -79,6 +92,10 @@ const Projects = () => {
       />
       <br></br>
       <img src={Lottery} className='Lottery'></img>
+      <a href='"http://Doreen162.github.io/github-finder-project'>
+        <br></br>
+        <b>Click on this link</b>
+      </a>
 
       <br></br>
       <br></br>
