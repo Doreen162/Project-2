@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.a92dc996.chunk.css",
-    "main.js": "/Porfolio/static/js/main.c49bdac3.chunk.js",
-    "main.js.map": "/Porfolio/static/js/main.c49bdac3.chunk.js.map",
-    "runtime-main.js": "/Porfolio/static/js/runtime-main.c5f00057.js",
-    "runtime-main.js.map": "/Porfolio/static/js/runtime-main.c5f00057.js.map",
-    "static/js/2.19e2f44c.chunk.js": "/Porfolio/static/js/2.19e2f44c.chunk.js",
-    "static/js/2.19e2f44c.chunk.js.map": "/Porfolio/static/js/2.19e2f44c.chunk.js.map",
-    "index.html": "/Porfolio/index.html",
-    "precache-manifest.755e5d580b7902c03da07231f37c1cab.js": "/Porfolio/precache-manifest.755e5d580b7902c03da07231f37c1cab.js",
-    "service-worker.js": "/Porfolio/service-worker.js",
-    "static/css/main.a92dc996.chunk.css.map": "/Porfolio/static/css/main.a92dc996.chunk.css.map",
-    "static/js/2.19e2f44c.chunk.js.LICENSE.txt": "/Porfolio/static/js/2.19e2f44c.chunk.js.LICENSE.txt",
-    "static/media/Lottery.png": "/Porfolio/static/media/Lottery.699f49d1.png",
-    "static/media/profile-pic.jpg": "/Porfolio/static/media/profile-pic.855a1595.jpg"
+    "main.css": "/Project-2/static/css/main.a92dc996.chunk.css",
+    "main.js": "/Project-2/static/js/main.809c54ef.chunk.js",
+    "main.js.map": "/Project-2/static/js/main.809c54ef.chunk.js.map",
+    "runtime-main.js": "/Project-2/static/js/runtime-main.24c8ac86.js",
+    "runtime-main.js.map": "/Project-2/static/js/runtime-main.24c8ac86.js.map",
+    "static/js/2.19e2f44c.chunk.js": "/Project-2/static/js/2.19e2f44c.chunk.js",
+    "static/js/2.19e2f44c.chunk.js.map": "/Project-2/static/js/2.19e2f44c.chunk.js.map",
+    "index.html": "/Project-2/index.html",
+    "precache-manifest.de99ba5a8152074325be07a3f47d4e6f.js": "/Project-2/precache-manifest.de99ba5a8152074325be07a3f47d4e6f.js",
+    "service-worker.js": "/Project-2/service-worker.js",
+    "static/css/main.a92dc996.chunk.css.map": "/Project-2/static/css/main.a92dc996.chunk.css.map",
+    "static/js/2.19e2f44c.chunk.js.LICENSE.txt": "/Project-2/static/js/2.19e2f44c.chunk.js.LICENSE.txt",
+    "static/media/Lottery.png": "/Project-2/static/media/Lottery.699f49d1.png",
+    "static/media/profile-pic.jpg": "/Project-2/static/media/profile-pic.855a1595.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5f00057.js",
+    "static/js/runtime-main.24c8ac86.js",
     "static/js/2.19e2f44c.chunk.js",
     "static/css/main.a92dc996.chunk.css",
-    "static/js/main.c49bdac3.chunk.js"
+    "static/js/main.809c54ef.chunk.js"
   ]
 }
