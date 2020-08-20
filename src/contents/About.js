@@ -14,11 +14,11 @@ class About extends Component {
         <br></br>
         <p>
           I'm South African female citizen. I'm currently 26 years old and the
-          languages I speak is English and Afrikaans. My Abilities are good
+          languages I speak is English and Afrikaans. My abilities are good
           communication skills, working well in a team, self-movitation, good
           time management, critical thinking, determination and persistance. My
-          interest are watching news because I love knowing what going on around
-          the world, watching movies and doing outdoor/adventures.
+          interest are watching news because I love knowing what is going on
+          around the world, watching movies and doing outdoor/adventures.
         </p>
         <br></br>
 

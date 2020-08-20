@@ -19,6 +19,10 @@ const Projects = () => {
       />
       <br></br>
       <img src={images} className='images'></img>
+      <br></br>
+      <a href='"http://Doreen162.github.io/github-finder-project'>
+        <b>Send me email by clicking on this link</b>
+      </a>
 
       <br></br>
       <br></br>

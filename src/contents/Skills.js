@@ -9,8 +9,8 @@ class Skills extends Component {
         'HTML - 70%',
         'CSS - 50%',
         'JS - 50%',
-        'BOOTSTRAP - 50%',
         'REACT JS - 50%',
+        'BOOTSTRAP - 50%',
         'PYTHON - 60%',
       ],
     };
@@ -25,10 +25,6 @@ class Skills extends Component {
             return <li>{value}</li>;
           })}
         </ul>
-
-        <a href='https://docs.google.com/document/d/14j51-qgcxPSGa8BTZL7nEU1dFEkEg6Zexqg1lkRiLjw/edit?usp=sharing'>
-          Resume
-        </a>
 
         <br></br>
         <br></br>
