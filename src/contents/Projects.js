@@ -21,7 +21,6 @@ const Projects = () => {
       <img src={images} className='images'></img>
       <br></br>
       <a href='http://Doreen162.github.io/github-finder-project'>
-        <br></br>
         <b>Click on this link</b>
       </a>
 
@@ -92,7 +91,7 @@ const Projects = () => {
       />
       <br></br>
       <img src={Lottery} className='Lottery'></img>
-      <a href='"http://Doreen162.github.io/github-finder-project'>
+      <a href='"http://Doreen162.github.io/lottery-project'>
         <br></br>
         <b>Click on this link</b>
       </a>

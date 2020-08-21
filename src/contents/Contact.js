@@ -8,6 +8,8 @@ class Contact extends Component {
       <div className='condiv'>
         <h1 className='subtopic'>Contact Me</h1>
         <h2>
+          Email Address: doreenligman17@gmail.com
+          <br></br>
           <a href='mailto:doreenligman17@gmail.com'>
             <b>Send me email by clicking on this link</b>
           </a>
