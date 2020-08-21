@@ -37,7 +37,7 @@ const Projects = () => {
       />
       <br></br>
       <img src={contact} className='contact'></img>
-      <a href='http://Doreen162.github.io/contact-keeper-project'>
+      <a href='http://Doreen162.github/contact-keeper-project'>
         <br></br>
         <b>Click on this link</b>
       </a>
@@ -55,7 +55,7 @@ const Projects = () => {
       />
       <br></br>
       <img src={login} className='login'></img>
-      <a href='http://Doreen162.github.io/it-logger-project'>
+      <a href='http://Doreen162.github/it-logger-project'>
         <br></br>
         <b>Click on this link</b>
       </a>
@@ -73,7 +73,7 @@ const Projects = () => {
       />
       <br></br>
       <img src={beauty} className='beauty'></img>
-      <a href='http://Doreen162.github.io/website'>
+      <a href='http://Doreen162.github/website'>
         <br></br>
         <b>Click on this link</b>
       </a>
@@ -91,7 +91,7 @@ const Projects = () => {
       />
       <br></br>
       <img src={Lottery} className='Lottery'></img>
-      <a href='"http://Doreen162.github.io/lottery-project'>
+      <a href='"http://Doreen162.github/lottery-project'>
         <br></br>
         <b>Click on this link</b>
       </a>
