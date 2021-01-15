@@ -26,6 +26,7 @@ nav {
     180deg,
     rgba(238, 103, 143, 1) 50%,
     rgba(132, 124, 252, 1) 80%
+
   );
 }
 .condiv {
@@ -149,4 +150,6 @@ p {
   .social i {
     padding-right: 0px;
   }
+
+  
 }

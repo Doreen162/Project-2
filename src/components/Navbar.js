@@ -39,25 +39,6 @@ class Navbar extends Component {
             activec={this.activeitem}
           ></Navitem>
           <Navitem
-<<<<<<< HEAD
-            item='Work'
-            tolink='/work'
-            activec={this.activeitem}
-          ></Navitem>
-          <Navitem
-            item='Projects'
-            tolink='/projects'
-            activec={this.activeitem}
-          ></Navitem>
-          <Navitem
-            item='Testimonial'
-            tolink='/testimonial'
-            activec={this.activeitem}
-          ></Navitem>
-          <Navitem
-            item='Contact'
-            tolink='/contact'
-=======
             item='Contact'
             tolink='/contact'
             activec={this.activeitem}
@@ -75,7 +56,6 @@ class Navbar extends Component {
           <Navitem
             item='Projects'
             tolink='/projects'
->>>>>>> 398cd997c282ab6536ac97ae3a5aa39f3f543188
             activec={this.activeitem}
           ></Navitem>
         </ul>

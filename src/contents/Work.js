@@ -8,6 +8,12 @@ class Work extends Component {
       <div className='condiv'>
         <h1 className='subtopic'>Work Experience</h1>
         <Widecard
+          title='Full Stack Developement Intern'
+          where='Salasian Life Choices'
+          from='September 2020'
+          to='Present'
+        />
+        <Widecard
           title='Caregiver'
           where='Creative Wellness'
           from='April 2018'

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer';
 
+
 class Skills extends Component {
   constructor(props) {
     super(props);
@@ -12,6 +13,7 @@ class Skills extends Component {
         'REACT JS - 50%',
         'BOOTSTRAP - 50%',
         'PYTHON - 60%',
+        'VUEJS - 50%',
       ],
     };
   }

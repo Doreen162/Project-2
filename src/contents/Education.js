@@ -11,7 +11,7 @@ class Education extends Component {
           title='Web development/Programming Coding Course'
           where='Lifechoices Academy'
           from='24 February 2020'
-          to='Present'
+          to='30 August 2020'
         />
         <Widecard
           title='Broad Based Digital Skills Candidate'
