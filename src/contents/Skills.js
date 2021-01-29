@@ -9,11 +9,12 @@ class Skills extends Component {
       myskills: [
         'HTML - 70%',
         'CSS - 50%',
-        'JS - 50%',
-        'REACT JS - 50%',
+        'JAVASCRIPTS - 50%',
         'BOOTSTRAP - 50%',
-        'PYTHON - 60%',
+        'REACT  - 50%',
         'VUEJS - 50%',
+        'PYTHON - 60%',
+        
       ],
     };
   }

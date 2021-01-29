@@ -18,10 +18,10 @@ const Projects = () => {
         eraseDelay={700}
       />
       <br></br>
-      <img src={images} className='images'></img>
+      
       <br></br>
-      <a href='http://Doreen162.github.io/github-finder-project'>
-        <b>Click on this link</b>
+      <a href='https://github.com/Doreen162/Github-finder-project'>
+      <img src={images} className='images'></img>
       </a>
 
       <br></br>
@@ -36,10 +36,8 @@ const Projects = () => {
         eraseDelay={700}
       />
       <br></br>
+      <a href='https://github.com/Doreen162/contact-keeper'>
       <img src={contact} className='contact'></img>
-      <a href='http://Doreen162.github/contact-keeper-project'>
-        <br></br>
-        <b>Click on this link</b>
       </a>
 
       <br></br>
@@ -54,10 +52,8 @@ const Projects = () => {
         eraseDelay={700}
       />
       <br></br>
+      <a href='https://github.com/Doreen162/it-logger'>
       <img src={login} className='login'></img>
-      <a href='http://Doreen162.github/it-logger-project'>
-        <br></br>
-        <b>Click on this link</b>
       </a>
 
       <br></br>
@@ -72,10 +68,8 @@ const Projects = () => {
         eraseDelay={700}
       />
       <br></br>
+      <a href='https://github.com/Doreen162/Beauty-salon'>
       <img src={beauty} className='beauty'></img>
-      <a href='http://Doreen162.github/website'>
-        <br></br>
-        <b>Click on this link</b>
       </a>
 
       <br></br>
@@ -90,11 +84,10 @@ const Projects = () => {
         eraseDelay={700}
       />
       <br></br>
+      <a href='http://Doreen162.github/lottery-project'>
       <img src={Lottery} className='Lottery'></img>
-      <a href='"http://Doreen162.github/lottery-project'>
-        <br></br>
-        <b>Click on this link</b>
       </a>
+     
 
       <br></br>
       <br></br>

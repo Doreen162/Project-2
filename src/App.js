@@ -5,11 +5,12 @@ import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
-import Work from './contents/Work';
-import Contact from './contents/Contact';
 import Skills from './contents/Skills';
-import Testimonial from './contents/Testimonial';
+import Work from './contents/Work';
 import Projects from './contents/Projects';
+import Testimonial from './contents/Testimonial';
+import Contact from './contents/Contact';
+
 
 function App() {
   return (
@@ -25,20 +26,20 @@ function App() {
         <Route path='/education'>
           <Education />
         </Route>
-        <Route path='/Work'>
-          <Work />
-        </Route>
         <Route path='/skills'>
           <Skills />
         </Route>
-        <Route path='/contact'>
-          <Contact />
+        <Route path='/Work'>
+          <Work />
+        </Route>
+        <Route path='/Projects'>
+          <Projects />
         </Route>
         <Route path='/Testimonial'>
           <Testimonial />
         </Route>
-        <Route path='/Projects'>
-          <Projects />
+        <Route path='/contact'>
+          <Contact />
         </Route>
       </div>
     </Router>
