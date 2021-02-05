@@ -1,0 +1,32 @@
+.suc__container {
+    margin: 10 auto;
+    max-width: 10000px;
+    display: "flex",
+    
+  }
+  
+  .success {
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .suc__copy {
+    margin: 0 auto;
+  }
+  
+  .suc__headline {
+   
+    color: #32325d;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+  
+  .suc__subhead {
+    color: #32325d;
+    opacity: 0.8;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+  }
+ 

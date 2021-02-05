@@ -1,39 +1,70 @@
-import React, { Component } from 'react';
-import Social from '../components/Social';
-import Footer from '../components/Footer';
+import React from 'react';
+import { render } from 'react-dom';
 
-class Contact extends Component {
-  render() {
-    return (
-      <div className='condiv'>
-        <h1 className='subtopic'>Contact Me</h1>
-        <h2><a href='mailto:doreenligman17@gmail.com'>
-        <h2>Email Address: doreenligman17@gmail.com</h2>
-          </a>
-        </h2>
-        <h2>contact : +27 78 841 4676 </h2>
+import ContactForm from '../form/form';
+import SuccessMsg from '../success/success';
 
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
 
-        <Footer />
-        <Social />
-      </div>
-    );
+import '../form/form.css';
+import '../input/input.css';
+import '../success/success.css';
+
+const contactFields = [
+  {
+    label: 'Your full name',
+    id: 'fullname',
+    placeholder: 'Name & Surname',
+    type: 'text',
+    options: {
+      required: true
+    }
+  },
+  {
+    label: 'Your email',
+    id: 'email',
+    placeholder: 'example@gmail.com',
+    type: 'email',
+    options: {
+      required: true,
+      email: true
+    }
+  },
+  {
+    label: 'Subject',
+    id: 'subject',
+    placeholder: 'I am enquiring about...',
+    type: 'text',
+    options: {
+      required: true
+    }
+  },
+  {
+    label: 'Enquiry',
+    id: 'content',
+    placeholder: 'Tell us more about your enquiry, feedback or issues.',
+    type: 'textarea',
+    options: {
+      required: true
+    }
   }
-}
+];
+
+
+const Contact = () => (
+  
+    <div className='condiv contact'>
+      <h1> Contact Me</h1>
+    
+    <div className="contact-form">
+     <ContactForm fields={contactFields} submitText='contact' />
+    </div>
+    <div className="contact-form">
+      <SuccessMsg email='doreenligman17@gmail.com' />
+    </div>
+    
+  </div>
+);
+
+render(<Contact />, document.getElementById('root'));
 
 export default Contact;

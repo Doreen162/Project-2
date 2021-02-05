@@ -38,7 +38,7 @@ function App() {
         <Route path='/Testimonial'>
           <Testimonial />
         </Route>
-        <Route path='/contact'>
+        <Route path='/Contact'>
           <Contact />
         </Route>
       </div>

@@ -1,0 +1,10 @@
+input.invalid__value,
+textarea.invalid__value {
+  border-color: red;
+}
+
+input.invalid__value::placeholder,
+textarea.invalid__value::placeholder {
+  color: red;
+}
+
